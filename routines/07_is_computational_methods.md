@@ -84,4 +84,6 @@ Top methods:
 - Focus on METHOD novelty, not topic relevance. A paper about healthcare IT is relevant if its method could work for brand text analysis.
 - Explicitly evaluate whether the method can work with observational/secondary data. Methods requiring controlled experiments are low priority.
 - Note the programming language/tools needed (Python, R, specific packages).
-- Commit output with message: "methods: is-computational YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/methods_arsenal`
+- Git workflow: create branch `claude/methods-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

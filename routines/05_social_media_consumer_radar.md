@@ -84,4 +84,6 @@ Top findings:
 - Highest priority: papers using large-scale social media data (scraped/API) rather than surveys or experiments.
 - Flag any papers that develop new metrics for engagement beyond simple like/comment/share counts.
 - Note any novel analytical approaches (NLP, network analysis, causal inference on observational data).
-- Commit output with message: "radar: social-media-consumer YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/literature_radar`
+- Git workflow: create branch `claude/radar-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

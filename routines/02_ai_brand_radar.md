@@ -78,4 +78,6 @@ Top findings:
 - Only include papers you can verify exist. Never fabricate citations.
 - This is a fast-moving field — preprints and working papers are welcome, but label them clearly.
 - Pay special attention to papers that combine AI methods with secondary/observational data (not just lab experiments).
-- Commit output with message: "radar: ai-brand YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/literature_radar`
+- Git workflow: create branch `claude/radar-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

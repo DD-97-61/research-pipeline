@@ -147,4 +147,6 @@ If a new IDEA scores >= 12/15: Add to Slack message: "HIGH POTENTIAL — 建议�
 - Target journal must be realistic. Don't suggest JMR for incremental work.
 - When recommending ABANDON, explain clearly — the researcher should understand why.
 - Cross-reference with existing Case1-3 projects in the repo to avoid overlap with ongoing work.
-- Commit output with message: "incubate: ideas YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/idea_factory`
+- Git workflow: create branch `claude/ideas-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

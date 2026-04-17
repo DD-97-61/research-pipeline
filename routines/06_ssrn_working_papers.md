@@ -91,4 +91,6 @@ Top findings:
 - Clearly label everything as working paper / preprint / under review. Never present a working paper as published.
 - Pay extra attention to papers from top-tier business school faculty — they often signal where the field is heading.
 - Note if a working paper is "revise and resubmit" at a specific journal (sometimes mentioned on SSRN).
-- Commit output with message: "radar: working-papers YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/literature_radar`
+- Git workflow: create branch `claude/radar-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

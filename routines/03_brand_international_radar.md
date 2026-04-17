@@ -81,4 +81,6 @@ Top findings:
 - Only include verified papers. Never fabricate citations.
 - Especially flag papers studying Chinese brands going global — this is a high-priority research direction.
 - Note any papers using social media data, e-commerce data, or other secondary data sources for international branding research.
-- Commit output with message: "radar: brand-international YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/literature_radar`
+- Git workflow: create branch `claude/radar-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

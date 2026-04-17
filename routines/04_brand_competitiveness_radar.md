@@ -79,4 +79,6 @@ Top findings:
 - Only include verified papers. Never fabricate citations.
 - Prioritize papers that propose new measurement frameworks for brand competitiveness — this is an area with room for methodological innovation.
 - Flag any papers that use publicly available data (Interbrand rankings, social media metrics, financial data) to measure brand equity.
-- Commit output with message: "radar: brand-competitiveness YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/literature_radar`
+- Git workflow: create branch `claude/radar-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

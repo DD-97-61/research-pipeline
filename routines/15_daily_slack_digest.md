@@ -126,4 +126,6 @@ The repo version includes:
 - The "需要你关注的" section is the most important. If nothing needs attention, say "今日无需特别关注，管道正常运行".
 - Be honest about the quality of today's findings. A day with no discoveries is normal — don't inflate.
 - Weekly (every Monday), add a "本周回顾" section summarizing the week's key findings.
-- Commit output with message: "digest: daily YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/daily_digest`
+- Git workflow: create branch `claude/digest-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

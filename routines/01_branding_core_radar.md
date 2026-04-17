@@ -80,4 +80,6 @@ If nothing found: Send "[Branding核心雷达] YYYY-MM-DD — 今日无新发现
 
 - Only include papers you can verify actually exist (with DOI or URL). Never fabricate citations.
 - If you cannot access a paper's full text, note "abstract only" and work from the abstract.
-- Commit the output file to the repo with message: "radar: branding core YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/literature_radar`
+- Git workflow: create branch `claude/radar-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

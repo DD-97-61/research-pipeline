@@ -104,4 +104,6 @@ Top 3 gaps:
 - Be honest about competition level. If 5 working papers already address a gap, it's not a gap anymore.
 - Every gap must have evidence from specific papers in the radar files. No speculative gaps.
 - Compare with previous synthesis reports to show evolution — are gaps opening or closing?
-- Commit output with message: "synthesis: research-gaps YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/idea_factory`
+- Git workflow: create branch `claude/ideas-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

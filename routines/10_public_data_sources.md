@@ -105,4 +105,6 @@ Top finds:
 - Clearly distinguish between: freely downloadable / requires application / requires scraping / paid access.
 - For Chinese data sources, note any regulatory restrictions (e.g., data privacy law implications).
 - If a social media API has changed its terms recently, flag it prominently — this affects research feasibility.
-- Commit output with message: "data: public-sources YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/methods_arsenal`
+- Git workflow: create branch `claude/methods-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

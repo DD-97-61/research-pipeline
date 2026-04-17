@@ -87,4 +87,6 @@ Top methods:
 - Focus on methods applicable to OBSERVATIONAL data (social media posts, reviews, transaction logs), not lab experiments.
 - When a method requires GPU resources, note the approximate compute requirements.
 - If a method paper includes a marketing/social science application example, flag it as high-priority.
-- Commit output with message: "methods: ml-nlp YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/methods_arsenal`
+- Git workflow: create branch `claude/methods-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

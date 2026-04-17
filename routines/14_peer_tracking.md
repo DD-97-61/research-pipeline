@@ -91,4 +91,6 @@ If a competitor publishes something directly overlapping with our DEVELOP ideas:
 - Don't list every paper by famous scholars — only papers relevant to our research streams.
 - The most valuable output is the "overlap with our interests" assessment — be specific about which of our ideas might be affected.
 - Update idea_portfolio.md if a competitor publication makes an idea less viable (change status to HOLD or ABANDON with reason).
-- Commit output with message: "track: peers YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/idea_factory`
+- Git workflow: create branch `claude/ideas-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

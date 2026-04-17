@@ -134,4 +134,6 @@ Send to channel `C0ATR6EDGF3`:
 - Check match_history.md before reporting — don't repeat matches already identified.
 - If you find a score >= 12 match, add "HIGH PRIORITY" to the Slack message.
 - The target journal assessment should be realistic — don't suggest JMR for every idea.
-- Commit output with message: "match: gap-method-data YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/methods_arsenal`
+- Git workflow: create branch `claude/methods-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.

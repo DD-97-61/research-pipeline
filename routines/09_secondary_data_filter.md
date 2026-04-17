@@ -98,4 +98,6 @@ Send to channel `C0ATR6EDGF3`:
 - Don't fabricate implementation links. If you're not sure a package exists, say so.
 - If no methods pass today, that's fine — say "今日无新方法通过筛选" and explain why.
 - Accumulate: also check if previously CONDITIONAL methods have new implementations or examples that could upgrade them to PASS.
-- Commit output with message: "filter: secondary-data YYYY-MM-DD"
+- Before saving, ensure directories exist: `mkdir -p research_pipeline/methods_arsenal`
+- Git workflow: create branch `claude/methods-YYYY-MM-DD` if not exists, commit with the specified message, push to origin.
+- If the branch already exists (from earlier routines today), reuse it and add a new commit.
